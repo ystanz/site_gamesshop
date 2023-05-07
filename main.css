@@ -10,10 +10,24 @@ header {
     color: #ecf0f1;
 }
 
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+header,
+section h2 {
+    font-family: 'Bungee', cursive;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 header nav li a {
@@ -27,8 +41,43 @@ header nav li a {
     margin: 0 auto;
 }
 
-header .container {
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.branchs_list img{
+    height: 24px;
+}
+
+.branchs_list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16 px;
+}
+
+section {
+    color: #182C61;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.store_front {
+    margin-right: 32px;
+}
+
